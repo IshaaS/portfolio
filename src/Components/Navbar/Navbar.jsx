@@ -7,10 +7,10 @@ const Navbar = () => {
         <h1>Isha</h1>
         {/* <img src={} alt="" /> */}
         <ul className='nav-menu'>
-            <li>Education</li>
-            <li>Skills</li>
+            <li>About Me</li>
             <li>Resume</li>
-            <li>Project</li>
+            <li>Skills</li>
+            <li>Projects</li>
             {/* <li>LinkedIn</li>
             <li>Github</li>
             <li>Instagram</li> */}
