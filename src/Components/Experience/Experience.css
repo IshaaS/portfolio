@@ -34,7 +34,7 @@
     border: solid 2px white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     color: #d8d8d8;
-    width: 100%;
+    width: 75%;
 }
 .experience-card:hover{
     border: 2px solid #ff00ff;
@@ -56,6 +56,8 @@
     font-size: 18px;
     font-Weight: 500;
     color: #b8b8b8;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .duration{
     font-size: 16px;
@@ -63,6 +65,7 @@
     color: #a0a0a0;
 }
 .description{
+    margin-top: 10px;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -82,4 +85,13 @@
 
 .download-button:hover {
     border: 2px solid white; 
+}
+.experience-card a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.experience-card a img{
+    width: 1.5rem;
+    height: 1rem;
 }

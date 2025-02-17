@@ -38,7 +38,7 @@ const Skills = () => {
                     <motion.div 
                         key={index} 
                         className="skill-card"
-                        whileHover={{ scale: 1.1, rotate: 5 }}
+                        whileHover={{ scale: 1.1, rotate: 3 }}
                         transition={{ type: 'spring', stiffness: 300 }}
                     >
                         <img src={skill.icon} alt={skill.name} className="skill-icon" />
