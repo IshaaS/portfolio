@@ -41,8 +41,8 @@ const Contact = () => {
                 <div className="contact-left">
                     <h1>Let's Talk</h1>
                     {/* need to wokr on this(content to write) */}
-                    <p>I am currently looking for full time opportunites starting May 2025 and its
-                    never a wrong time to take up new projects and collabrate so... hit me up
+                    <p>I'm actively looking for full-time opportunities starting May 2025 and I love collaborating on
+                     exciting projects. Whether it’s brainstorming new ideas, building innovative solutions, or simply exchanging thoughts—let’s connect and create something amazing!
                     </p>
                     <div className="contact-details">
                         <div className="contact-detail">

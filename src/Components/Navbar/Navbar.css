@@ -1,15 +1,16 @@
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: -webkit-fill-available;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    padding: 20px;
+    background: #161513;
 }
-.navbar img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -37,7 +38,29 @@
 .logo{
     position: relative;
 }
+.logo img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
 .anchor-link{
     text-decoration: none;
     color: white;
+}
+.social-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links a img:hover {
+    transform: scale(1.2);
 }
