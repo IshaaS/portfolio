@@ -1,6 +1,6 @@
 import React , { useState, useEffect } from 'react'
 import './Intro.css'
-import profile_pic from '../../assets/ishaProfile.png'
+// import profile_pic from '../../assets/ishaProfile.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { motion, AnimatePresence } from 'framer-motion';
 
