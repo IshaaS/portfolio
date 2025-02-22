@@ -44,7 +44,7 @@ const Intro = () => {
       </AnimatePresence>
         <div className='action'>
             <div className="connect">
-              <AnchorLink className='anchor-link' offset={50} href='#contact'>
+              <AnchorLink className='anchor-link' offset={120} href='#contact'>
                 Let's connect!
               </AnchorLink>
             </div>

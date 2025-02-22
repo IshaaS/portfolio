@@ -39,7 +39,7 @@ const About = () => {
                         With a strong foundation in software development and a passion for building scalable solutions, I have experience in full-stack development, system design, and cloud computing.
                     </p>
                     <p>
-                        My academic journey has been shaped by courses that have deepened my understanding of Database Technologies, Advanced Algorithms, Software Engineering, Machine Learning, and Network Security. These subjects have not only honed my technical skills but also fueled my enthusiasm for solving complex challenges in scalable and efficient ways. 
+                        My academic journey has been shaped by courses that have deepened my understanding of Database Technologies, Advanced Algorithms, Software Engineering, Machine Learning, and Network Security.
                     </p>
                     <p>
                         I have collaborated with Agile teams, actively participating in Scrum ceremonies, pair programming, and cross-functional teamwork to develop high-quality software solutions.
