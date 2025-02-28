@@ -46,8 +46,8 @@ const Experience = () => {
             <h1>Experience</h1>
             <img src={theme_pattern} alt="" />
         </div>
-        <button onClick={downloadResume} className='download-button'><img src={download} alt="" /> My Resume</button>
         <div className='experience-list'>
+        <button onClick={downloadResume} className='download-button'><img src={download} alt="" /> My Resume</button>
         {experiences.map((exp, index) => (
           <div className='experience-wrapper' key={index}>
             {index !== experiences.length && index !== 0 && <div className='connector'></div>}

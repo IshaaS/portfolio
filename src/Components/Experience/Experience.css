@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 45px;
+    gap: 40px;
     margin: 80px 170px;
 }
 .experience-title{
@@ -20,7 +20,11 @@
     right: 0;
     z-index: -1;
 }
-
+.experience-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .experience-wrapper{
     display: flex;
     flex-direction: column;
@@ -81,6 +85,7 @@
     border: none;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 40px;
 }
 
 .download-button:hover {
@@ -92,6 +97,55 @@
     text-decoration: none;
 }
 .experience-card a img{
+    margin-left: 2px;
     width: 1.5rem;
     height: 1rem;
+}
+@media(max-width:768px){
+    .experience{
+        gap: 40px;
+        margin: 90px 70px;
+        align-items: start;;
+    }
+    .experience-title h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .experience-title img{
+        width: 130px;
+        right:-20px;
+    }
+    .download-button{
+        padding: 2px 30px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .download-button img{
+        width: 25px;
+        height: 25px;
+    }
+    .experience-card {
+        width: 85%;
+        padding: 15px;
+    }
+    .position{
+        font-size: 18px;
+    }
+    .company{
+        font-size: 15px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .duration{
+        font-size: 12px;
+    }
+    .description{
+        margin-top: 6px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .experience-card a img{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
 }

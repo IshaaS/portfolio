@@ -49,6 +49,7 @@ const Projects = () => {
             <h1>Projects</h1>
             <img src={theme_pattern} alt="" />
         </div>
+        <div className="section">
         <div className="projects-sections">
             <a href="https://github.com/IshaaS" target="_blank" rel="noopener noreferrer">
                 <h2>Book Rental Platform</h2>
@@ -70,6 +71,7 @@ based development for timely deployment.</h3>
             </div>
             <br />
             <h3>Roles:</h3>
+            <div className="roles">
             <p>
             👤 Renters – Browse, rent books, track rental history, and return books.</p>
             <p>
@@ -78,6 +80,7 @@ based development for timely deployment.</h3>
             <p>
             🛠️ Admins – Oversee platform operations, moderate user activities, and handle disputes or policy violations.
             </p>
+            </div>
             <br />
             <h3>Tech-Stack</h3>
             <br />
@@ -94,6 +97,7 @@ based development for timely deployment.</h3>
                     </motion.div>
                 ))}
             </div>
+        </div>
         </div>
     </div>
   )

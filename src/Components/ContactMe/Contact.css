@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 40px;
     margin: 120px 170px;
 }
 .contact-title{
@@ -101,4 +101,57 @@
 }
 .contact-submit:hover{
     transform: scale(1.1);transition: 0.3s;
+}
+
+@media(max-width:768px){
+    .contact{
+        gap: 40px;
+        margin: 50px 70px;
+        align-items: start;;
+    }
+    .contact-title h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .contact-title img{
+        width: 130px;
+        right:-20px;
+    }
+    .contact-section{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .contact-left{
+        gap: 15px;
+    }
+    .contact-left h1{
+        font-size: 35px;
+    }
+    .contact-left p{
+        font-size:18px;
+    }
+    .contact-details{
+       gap:20px;
+    }
+    .contact-detail img{
+        width: 25px;
+    }
+    .contact-right label{
+        font-size: 18px;
+    }
+    .contact-right input{
+        width: 100%;
+        font-size: 18px;
+    }
+    .contact-right textarea{
+        width:95%;
+        font-size: 18px;
+    }
+    .contact-submit{
+        font-size: 18x;
+        padding: 12px 40px;
+    }
+    .contact-submit:hover{
+        transform: scale(1.1);transition: 0.3s;
+    }
 }
