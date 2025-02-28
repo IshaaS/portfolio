@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/isha_sasturkar_resume.pdf';
+    link.href = '/portfolio/isha_sasturkar_resume.pdf';
     link.download = 'isha_sasturkar_resume.pdf';
     document.body.appendChild(link);
     link.click();

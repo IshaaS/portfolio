@@ -9,10 +9,13 @@
 .contact-title{
     position: relative;
 }
-.contact-title h1{
+.web{
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600px;
+}
+.mob{
+    display: none;
 }
 .contact-title img{
     position: absolute;
@@ -103,13 +106,18 @@
     transform: scale(1.1);transition: 0.3s;
 }
 
-@media(max-width:768px){
+@media(max-width:1024px){
     .contact{
         gap: 40px;
         margin: 50px 70px;
         align-items: start;;
     }
-    .contact-title h1{
+    .web{
+        display: none;
+    }
+    .mob{
+        display: block;
+        font-weight: 600px;
         font-size: 50px;
         padding: 0;
     }

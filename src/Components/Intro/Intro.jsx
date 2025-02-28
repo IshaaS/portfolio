@@ -25,7 +25,7 @@ const Intro = () => {
   }, []);
 
   const viewResume = () => {
-    window.open('/isha_sasturkar_resume.pdf', '_blank');
+    window.open('/portfolio/isha_sasturkar_resume.pdf', '_blank');
   };
 
   return (

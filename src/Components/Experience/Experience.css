@@ -101,7 +101,7 @@
     width: 1.5rem;
     height: 1rem;
 }
-@media(max-width:768px){
+@media(max-width:1024px){
     .experience{
         gap: 40px;
         margin: 90px 70px;

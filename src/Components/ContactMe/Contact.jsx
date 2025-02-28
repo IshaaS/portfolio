@@ -34,7 +34,8 @@ const Contact = () => {
     return (
         <div id='contact' className="contact">
             <div className="contact-title">
-                <h1>Get In Touch</h1>
+                <h1 className='web'>Get In Touch</h1>
+                <h1 className="mob">Contact</h1>
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="contact-section">

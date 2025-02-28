@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const skills = [
     { name: "React", width: "85%" },
-    { name: "Node.js", width: "60%" },
-    { name: "MongoDB", width: "70%" },
+    { name: "Node.js", width: "80%" },
+    { name: "MongoDB", width: "80%" },
     { name: "Agile Methodologies", width: "100%" },
     { name: "Java", width: "80%" }
 ];
@@ -56,7 +56,7 @@ const About = () => {
                             initial={{ opacity: 0, width: "0%" }}
                             animate={{ opacity: 1, width: skills[index].width }}
                             exit={{ opacity: 0, width: "0%" }}
-                            transition={{ duration: 0.8, ease: "easeOut" }}
+                            transition={{ duration: 1, ease: "easeOut" }}
                         >
                             <p>{skills[index].name}</p>
                             <hr style={{ width: skills[index].width }} />

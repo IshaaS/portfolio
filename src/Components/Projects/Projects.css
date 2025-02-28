@@ -142,7 +142,7 @@
 .slider-btn:last-child {
     right: 5px;
 }
-@media(max-width:768px){
+@media(max-width:1024px){
     .projects{
         gap: 40px;
         margin: 90px 70px;
